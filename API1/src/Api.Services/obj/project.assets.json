@@ -207,6 +207,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
       }
     }
   },
@@ -678,10 +688,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Api.Domain/Domain.csproj",
+      "msbuildProject": "../Api.Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Domain >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
@@ -693,11 +709,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MicroServicos\\API1\\Api.Domain\\Domain.csproj",
-      "projectName": "Domain",
-      "projectPath": "C:\\MicroServicos\\API1\\Api.Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\MicroServicos\\API1\\src\\Api.Services\\Services.csproj",
+      "projectName": "Services",
+      "projectPath": "C:\\MicroServicos\\API1\\src\\Api.Services\\Services.csproj",
       "packagesPath": "C:\\Users\\ednilsoncipolla\\.nuget\\packages\\",
-      "outputPath": "C:\\MicroServicos\\API1\\Api.Domain\\obj\\",
+      "outputPath": "C:\\MicroServicos\\API1\\src\\Api.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -717,7 +733,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\MicroServicos\\API1\\src\\Api.Domain\\Domain.csproj": {
+              "projectPath": "C:\\MicroServicos\\API1\\src\\Api.Domain\\Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

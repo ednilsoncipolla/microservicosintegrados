@@ -1,0 +1,4 @@
+C:\MicroServicos\API1\src\Api.Services\obj\Debug\netcoreapp2.2\Services.csprojAssemblyReference.cache
+C:\MicroServicos\API1\src\Api.Services\obj\Debug\netcoreapp2.2\Services.csproj.CoreCompileInputs.cache
+C:\MicroServicos\API1\src\Api.Services\obj\Debug\netcoreapp2.2\Services.AssemblyInfoInputs.cache
+C:\MicroServicos\API1\src\Api.Services\obj\Debug\netcoreapp2.2\Services.AssemblyInfo.cs
