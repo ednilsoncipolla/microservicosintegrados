@@ -5,6 +5,6 @@ namespace Api.Domain.Interface
 {
     public interface ICorrecaoService
     {
-         Task<Correcao> GetTaxa(Correcao correcao);
+        Task<Correcao> GetTaxa(Correcao correcao);
     }
 }
