@@ -22,6 +22,7 @@ namespace Api.Application.Controllers
             {
                 Correcao correcao = new Correcao();
                 Task<Correcao> Taxa = service.GetTaxa(correcao);
+                Taxa.Start();
                 Taxa.Wait();
                 return Ok(Taxa.Result.Taxa.ToString());
             }

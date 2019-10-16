@@ -99,3 +99,13 @@ API1/src/Api.Application/obj/Application.csproj.nuget.g.props
 API1/src/Api.Application/obj/Application.csproj.nuget.dgspec.json
 API1/src/Api.Application/bin/Debug/netcoreapp2.2/Application.runtimeconfig.dev.json
 API1/src/Api.Application/bin/Debug/netcoreapp2.2/Application.deps.json
+API1/src/Api.Testes/obj/project.assets.json
+API1/src/Api.Testes/obj/Testes.csproj.nuget.g.targets
+API1/src/Api.Testes/obj/Testes.csproj.nuget.g.props
+API1/src/Api.Testes/obj/Testes.csproj.nuget.dgspec.json
+API1/src/Api.Testes/obj/Debug/netcoreapp3.0/Testes.csproj.FileListAbsolute.txt
+API1/src/Api.Testes/obj/Debug/netcoreapp3.0/Testes.csproj.CopyComplete
+API1/src/Api.Testes/obj/Debug/netcoreapp3.0/Testes.AssemblyInfo.cs
+API1/src/Api.Testes/bin/Debug/netcoreapp3.0/Testes.runtimeconfig.json
+API1/src/Api.Testes/bin/Debug/netcoreapp3.0/Testes.runtimeconfig.dev.json
+API1/src/Api.Testes/bin/Debug/netcoreapp3.0/Testes.deps.json
